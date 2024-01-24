@@ -34,8 +34,11 @@ header .logo p {
 .header-options ul {
   color: #000;
   float: left;
-  padding: 0px 350px;
+  padding: 0px 270px;
   display: flex;
+  height:70px;
+  align-items: center;
+  /* to center align the content veritcally you can specify height and give align-items center it will automatically align things in center */
 }
 
 .header-options li {
@@ -59,8 +62,11 @@ header .logo p {
 }
 
 .header-login .header-login-lock {
-  position: relative;
-  top: 15px;
+  /* position: relative; */
+  /* top: 15px; */
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 /* Header-login */
@@ -208,6 +214,7 @@ section {
   line-height: 40px;
   color: #ffc27a;
   padding-top: 42px;
+  font-size: 20px;
 }
 
 .course-details .course-name {
@@ -217,6 +224,7 @@ section {
   font-weight: 600px;
   line-height: 50.083px;
   padding-top: 42px;
+  font-size: 20px;
 }
 
 .course-details .stars {
@@ -229,16 +237,17 @@ section {
   display: flex;
   font-size: 20px;
   line-height: 28px;
-  padding-top: 25px;
+  margin-top: 25px;
 }
 
 .course-details .by {
   padding-top: 27px;
+  font-size:20px ;
 }
 
 .course-details .author-name {
   font-family: Poppins;
-  font-size: 25.36px;
+  font-size: 28.36px;
   font-style: normal;
   font-weight: 10;
   line-height: 50px;
@@ -247,7 +256,7 @@ section {
 
 .course-details .host {
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 50;
   line-height: 20px;
@@ -255,14 +264,15 @@ section {
 
 .course-details .Buy-course {
   border-radius: 100px;
-  font-size: 10px;
+  font-size: 12px;
   margin: 7px 2px;
   right: 50%;
   color: #fff;
   text-align: center;
-  padding: 12px 24px;
+  padding: 12.5px;
   background-color: #ed6a5a;
   border: 0px;
+  font-weight: bold;
 }
 
 .course-details.sign-up {
@@ -284,7 +294,7 @@ section {
 .course-details .sign-up {
   border-radius: 100px;
   font-size: 10px;
-  margin: 7px 2px;
+  margin: 10px;
   right: 50%;
   color: #fff;
   text-align: center;
@@ -305,8 +315,10 @@ section {
 /* syllabus text*/
 .syllabus-text {
   color: #21212f;
-  margin: 0 5.6em;
+  max-width: 1320px;
+  margin: auto;
   font-size: 46px;
+  margin-bottom: 15px;
 }
 
 /* syllabus */
@@ -320,6 +332,7 @@ section {
   background-color: fff;
   border-radius: 12px;
   box-shadow: 0px 4px 4px 0px gray;
+  border-top: 1px solid #80808042;
 }
 
 .syllabus .syllabus-num {
@@ -350,11 +363,20 @@ section {
   margin-left: 95px;
 }
 
-.syllabus .dropdown-button {
+/* .syllabus .dropdown-button {
   margin: 10px;
   width: 26px;
   height: 15px;
+} */
+
+.syllabus .dropdown-button {
+  margin: 10px;
+  width: 31px;
+  height: 18px;
+  padding: 2px;
 }
+
+
 
 /* course-information */
 .course-information {
@@ -367,7 +389,7 @@ section {
   /* margin-left: 100px; */
   flex-direction: row;
   margin-top: 5.62em;
-  padding-left: 8.5rem;
+  /* padding-left: 8.5rem; */
 }
 
 .course-information .instructors {
@@ -565,4 +587,18 @@ section {
 .qutations_marks {
   padding-left: 100px;
   padding-top: 8px;
+}
+
+.buyCourseSignUpSection {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+svg#Buycou {
+  margin-left: 10px;
+}
+
+.Chapter h4 {
+  font-size: 25px;
 }
