@@ -438,14 +438,14 @@ section {
   justify-content: center;
   flex-direction: column;
   align-content: center;
-  max-width: 120em;
+  max-width: 1320px;
   height: 52em;
-  margin-top: 100px;
+  margin: auto;
 }
 
-.Related_Courses .Related_courses_1 {
+/* .Related_Courses .Related_courses_1 {
   padding: 5.5rem 16.55rem;
-}
+} */
 
 /* Most popular instructor */
 
@@ -459,8 +459,10 @@ section {
 
 .Related_course_content {
   display: flex;
-  justify-content: space-around;
-  padding: 5.5rem 16.55rem;
+  justify-content: space-between;
+  /* padding: 5.5rem 16.55rem;
+   */
+   margin-top: 20px;
 }
 
 .Related_Courses .Related_course_2 {
@@ -500,8 +502,16 @@ section {
 /*  Related courses content */
 
 .Related_course_2 #Related-cou {
-  display: inline;
+  display: flex;
   margin: auto 0;
+  justify-content: center;
+  padding: 4px;
+  width: auto;
+  height: 53px;
+}
+.Related-courses-stars{
+  display: flex;
+  justify-content: center;
 }
 
 .Related_course_2 .Related-courses-price {
@@ -515,7 +525,7 @@ section {
   letter-spacing: 0.048px;
 }
 
-.Related_course_2 .Related-courses-navigation {
+ .Related-courses-navigation {
   width: 40px;
   height: 40px;
   margin-top: 50px;
@@ -602,3 +612,13 @@ svg#Buycou {
 .Chapter h4 {
   font-size: 25px;
 }
+
+/* .relatedCouses {
+  max-width: 1320px;
+  margin: auto;
+} */
+
+/* .Related_courses_1 {
+  max-width: 1320px;
+  margin: auto;
+} */
