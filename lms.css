@@ -652,11 +652,34 @@ svg#Buycou {
   align-items: center;
 }
 .student-feedback-card {
-  width: 250px;
+  width: 350px;
   height: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #363a3d;
-  border-radius: 57px;
+  background-color: #fff;
+  border-radius: 45px;
+  padding: 20px;
+}
+.container-1{
+  display: flex;
+}
+.feedback-row{
+  display: flex;
+  justify-content: space-between;
+}
+.vector-image{
+  margin-top: 20px;
+}
+.name-and-designation{
+  margin: auto;
+    padding-left: 10px;
+    line-height: 24px;
+}
+.user-name{
+  font-weight: bold;
+}
+.feedback-text-para{
+  text-align: center;
+  padding: 20px;
 }
 
